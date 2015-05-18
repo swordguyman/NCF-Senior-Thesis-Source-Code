@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="epopt" value="1.0E-9"/>
+    <setting name="epgap" value="0.05"/>
+    <setting name="nodesel" value="2"/>
+    <setting name="varsel" value="4"/>
+    <setting name="brdir" value="1"/>
+    <setting name="probe" value="-1"/>
+    <setting name="solutiontarget" value="1"/>
+    <setting name="predual" value="1"/>
+  </category>
+</settings>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="true" name="test">
+			<ref name="dm.dat" type="data">
+			</ref>
+			<ref name="bektas_model.mod" type="model">
+			</ref>
+			<ref name="settings.ops" type="setting">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="case_study_99_100">
+			<ref name="dm.dat" type="data">
+			</ref>
+			<ref name="settings.ops" type="setting">
+			</ref>
+			<ref name="bektas_model_case_study3.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
